@@ -1,72 +1,47 @@
 <!doctype html>
-<html class="no-js" lang="es-MX">
+<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Club de Investigación C.A.T.</title>
+        <title>CDI</title>
         <link rel="stylesheet" href="css/foundation.css" />
-        <link rel="stylesheet" href="css/styles.css" />
-        <script src="js/vendor/modernizr.js"></script>
+        <link rel="stylesheet" href="css/app.css" />
     </head>
     <body>
 
-        <nav class="top-bar" data-topbar role="navigation">
-            <ul class="title-area">
-                <li class="name">
-                    <h1><a href="#">Club de Investigación</a></h1>
-                </li>
+        <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+            <div class="title-bar-title">Menú</div>
+        </div>
 
-                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-            </ul>
-
-            <section class="top-bar-section">
-                <ul class="right">
-                    <li><a href="#">Visión</a></li>
-                    <li><a href="#">Viajes</a></li>
-                    <li><a href="#">Galería</a></li>
+        <div class="top-bar" id="example-menu">
+            <div class="top-bar-left">
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li class="menu-text">Club de Investigación</li>
                 </ul>
-            </section>
-        </nav>
-
-        <div class="row">
-            <div class="large-12 columns">
-                <img src="http://placehold.it/1000x400">
-                <hr>
+            </div>
+            <div class="top-bar-right">
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li><a href="#">Inicio</a></li>
+                    <li class="has-submenu">
+                        <a href="#">Complementos</a>
+                        <ul class="submenu menu vertical" data-submenu>
+                            <li><a href="#">Administración</a></li>
+                            <li><a href="#">Metodología</a></li>
+                            <li><a href="#">Pedagogía</a></li>
+                            <li><a href="#">Reglamento</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Maestros</a></li>
+                    <li><a href="#">Admisión</a></li>
+                </ul>
             </div>
         </div>
 
-        <div class="row">
-            <div class="large-4 columns">
-                <img src="http://placehold.it/400x300">
-            </div>
-            <div class="large-8 columns">
-                <h3>Sección de contenido</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id ligula vitae dolor luctus posuere. Mauris non vulputate mauris. In ut lacus et nulla fermentum placerat eu a elit. Vivamus sit amet finibus dolor. Pellentesque maximus egestas neque in sollicitudin.</p>
-                <p>Nam ut arcu id metus dignissim pharetra at nec sapien. Ut et congue arcu, at lacinia metus. Aliquam purus nisi, luctus vitae egestas sit amet, semper id libero. Nulla quis lacinia nunc. Donec vitae nulla nunc. Proin imperdiet imperdiet maximus. Suspendisse at commodo leo.</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="large-12 columns">
-                <hr>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="large-8 columns">
-                <h3>Sección de contenido</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id ligula vitae dolor luctus posuere. Mauris non vulputate mauris. In ut lacus et nulla fermentum placerat eu a elit. Vivamus sit amet finibus dolor. Pellentesque maximus egestas neque in sollicitudin.</p>
-                <p>Nam ut arcu id metus dignissim pharetra at nec sapien. Ut et congue arcu, at lacinia metus. Aliquam purus nisi, luctus vitae egestas sit amet, semper id libero. Nulla quis lacinia nunc. Donec vitae nulla nunc. Proin imperdiet imperdiet maximus. Suspendisse at commodo leo.</p>
-            </div>
-            <div class="large-4 columns">
-                <img src="http://placehold.it/400x300">
-            </div>
-        </div>
-
-        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/jquery.min.js"></script>
+        <script src="js/vendor/what-input.min.js"></script>
         <script src="js/foundation.min.js"></script>
-        <script>
-            $(document).foundation();
-        </script>
+        <script src="js/app.js"></script>
     </body>
 </html>
