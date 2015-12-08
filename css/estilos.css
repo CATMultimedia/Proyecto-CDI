@@ -1,4 +1,4 @@
-/***********Footer************/
+/*********** Footer ************/
 .full-width {
   max-width: 1300px;
 }
@@ -10,19 +10,16 @@
   color: #000;
 }
 
-.footer h4 {
-  color: #000;
-  font-size: 1em;
-  font-weight: 400;
-  text-transform: uppercase;
-  margin-top: 2.5rem;
-  margin-bottom: 10px;
-}
-.footer p, .footer a {
+.footer p {
   font-weight: 300;
   font-size: .8em;
   color: #000;
   margin-top: 10px;
+}
+
+.footer a {
+    font-size: 1em;
+    color: #000;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -31,9 +28,11 @@
     min-height: 280px;
   }
 }
+
 .footer-links {
   list-style-type: none;
 }
+
 .footer-links li {
   margin-top: .5em;
 }
