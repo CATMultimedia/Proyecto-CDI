@@ -22,6 +22,41 @@
     color: #000;
 }
 
+.image-home {
+    width: 500px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.image-admis {
+    width: 500px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.image-metod {
+    width: 600px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.image-pdg-main {
+    width: 500px;
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.image-pdg-lower {
+    width: 580px;
+    height: 180px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
 @media only screen and (min-width: 40.063em) {
   .footer .columns:nth-child(n+2) {
     border-left: 1px solid #b3b3b3;
